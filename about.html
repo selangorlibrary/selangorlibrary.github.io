@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Selangor Public Library</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+body {
+  background-image: url('picture/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-indigo w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <img src="picture/logo.png" class="w3-bar-item w3-button w3-hide-small" style="width:50px;height:40px;">
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-white">About Us</a>
+    <a href="exco.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Selangor Exco</a>
+    <a href="location.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Location</a>
+    <a href="service.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Service</a>
+    <a href="rules and regulations.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Rules and Regulation</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Gallery</a>
+    <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Video Tour</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-black" href="about.html">History</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="organization.html">Organizational Structure</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="objective.html">Objectives & Goals</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="vision.html">Vision, Mission, Slogan & Tagline </a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class=" w3-container">
+     <center> <h1>History of the Selangor Public Library</h1></center>
+     <center> <img src="picture/history.jpg"></center>
+      <p>The Selangor Public Library Corporation (PPAS) was established through the Selangor Public Library Corporation Enactment 1986 and gazetted in Government Gazette No. 5, dated March 27, 1969 and Government Gazette No.7, 1975 (amendment). <br>
+        <br>
+        In 1971, a PPAS Board was formed to start a public library in the State of Selangor. The first step in this direction was the acquisition of the Kuala Lumpur Book Club on October 20, 1971 to become a Central Library. <br>
+        <br>
+        The library was then moved to Shah Alam on November 16, 1986. The design of the library building is a reflection of Bugis culture and its interior design is a clash between Eastern and Western culture. It is also the largest public library in Southeast Asia. On March 15, 1988, the library was opened by the late Sultan Salahuddin Abdul Aziz Shah Alhaj and the building was named Raja Tun Uda and opened to the public.
+      </p>
+      <br>
+     <center> <img src="picture/history2.jpg" style="width:250px;height:170px;"> </center>
+     <br>
+     <p>The 203,600-square-foot (18,922 square meters) building is 6 stories high and can accommodate up to 2,500 people and 400,000 copies of the book at one time. The Opening Ceremony of the New Building was officiated by the Sultan of Selangor, 
+        His Highness Sultan Sharafuddin Idris Shah Alhaj Ibni The late Sultan Salahuddin Abdul Aziz Shah Alhaj on Saturday, December 10, 2011 with 14 Muharam 1433H.
+        <br>
+        <br>
+      The library has some new services to get people interested in coming here. Among the services provided are XD Theater services, 3D Theater, Virtual Reality (VR), Life Sketch Book (LSB), Lego Games and more. The Smart Mobile Library (SML) service
+       is also being introduced to enable users who cannot come here to enjoy the services provided. These services have also been improved to ensure that the library services are in line with current information technology developments. Wifi is provided 
+       free of charge and multimedia services are now available on every level. Other online services are also available, including Overdriver, Audiobook Archives and online registration.    </p>
+    </div>
+  </div>
+
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-hover-black" href="index.html">1</a>
+      <a class="w3-button w3-black" href="about.html">2</a>
+      <a class="w3-button w3-hover-black" href="exco.html">3</a>
+      <a class="w3-button w3-hover-black" href="location.html">4</a>
+      <a class="w3-button w3-hover-black" href="service.html">5</a>
+      <a class="w3-button w3-hover-black" href="rules and regulations.html">6</a>
+      <a class="w3-button w3-hover-black" href="gallery.html">7</a>
+      <a class="w3-button w3-hover-black" href="video.html">8</a>
+      <a class="w3-button w3-hover-black" href="exco.html">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l1">
+      <center> <p> <a href="http://www.ppas.gov.my/index.php/component/content/article/9-dasar/93-dasar-privasi" target="_blank">Privacy Policy</a>
+        | <a href="http://www.ppas.gov.my/index.php/component/content/article/9-dasar/92-dasar-keselamatan" target="_blank">Security Policy</a> 
+        | <a href="http://www.ppas.gov.my/index.php/korporat" target="_blank">Contact</a> 
+       </p> </center>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

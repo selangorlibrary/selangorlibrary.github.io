@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Selangor Public Library</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+body {
+  background-image: url('picture/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-indigo w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <img src="picture/logo.png" class="w3-bar-item w3-button w3-hide-small" style="width:50px;height:40px;">
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Us</a>
+    <a href="exco.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Selangor Exco</a>
+    <a href="location.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Location</a>
+    <a href="service.html" class="w3-bar-item w3-button w3-hide-small w3-white">Service</a>
+    <a href="rules and regulations.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Rules and Regulation</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Gallery</a>
+    <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Video Tour</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="service.html">Hours of Services</a>
+  <a class="w3-bar-item w3-button w3-black" href="children section.html">Children Section</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="teen section.html">Teen Section</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="adult section.html">Adult Section</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="reference section.html">Reference Section</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-container">
+     <center> <h1 class="w3-text-black">Children Section</h1></center>
+      <p>The Raja Tun Uda Library, Shah Alam Children's Library is located in the lower right wing and is dedicated to children under the age of 10.
+       In addition to a wide selection of children's books that you can borrow, there are various places that offer interesting places such as Reading Tree, Creative Zone, Interactive Zone and Cyber Zone.</p>
+    <br>
+    <center> <img src="picture/children section 1.jpg" style="width:250px;height:170px;"> </center>
+     <br>
+     <br>
+     <p>Reading Tree is a library concept for children to read in a relaxed atmosphere. Large tree replicas are built for children to relax and read under it.  They always surrounded by the colorful surrounded materials no matter the outside are.
+        The Creative Zone creates and organizing various mind practices for organizations. In weekend and school holidays, there are many events such as coloring games, storytelling, fun and puppet shows. </p>
+        <br>
+        <br>
+        <center> <img src="picture/children section 2.jpg" style="width:250px;height:170px;"> </center>   
+        <br>
+        <br>
+       <p>I-Step is a major presence in the Interactive Zone which works to arouse the cheerful mood of a child. On-Location Reporter is an effective, live-journalists-style game app for public speaking.
+         360 Kinect XBOX games are also available, with a minimum charge of RM0.50 per session, to promote strategy thinking in video games.</p>
+         <p> Definitely the smart little guy does not want to miss the internet. Cyber Zone offers 8 Windows-based personal computers, and 8 iMac computers. Just charge RM1.00 per hour.</p>
+    
+    </div>
+
+  </div>
+
+    <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-hover-black" href="index.html">1</a>
+      <a class="w3-button w3-hover-black" href="about.html">2</a>
+      <a class="w3-button w3-hover-black" href="exco.html">3</a>
+      <a class="w3-button w3-hover-black" href="location.html">4</a>
+      <a class="w3-button w3-black" href="service.html">5</a>
+      <a class="w3-button w3-hover-black" href="rules and regulations.html">6</a>
+      <a class="w3-button w3-hover-black" href="gallery.html">7</a>
+      <a class="w3-button w3-hover-black" href="video.html">8</a>
+      <a class="w3-button w3-hover-black" href="rules and regulations.html">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l1">
+      <center> <p> <a href="http://www.ppas.gov.my/index.php/component/content/article/9-dasar/93-dasar-privasi" target="_blank">Privacy Policy</a>
+        | <a href="http://www.ppas.gov.my/index.php/component/content/article/9-dasar/92-dasar-keselamatan" target="_blank">Security Policy</a> 
+        | <a href="http://www.ppas.gov.my/index.php/korporat" target="_blank">Contact</a> 
+       </p> </center>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
